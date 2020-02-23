@@ -1,0 +1,28 @@
+.list {
+    padding: 1%;
+    background-color: grey;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+.about {
+    margin-left: 200px;
+    padding-right: 2%;
+    font-size: larger;
+    justify-self: flex-end;
+}
+.home {
+    padding-right: 2%;
+    font-size: larger;
+    justify-self: flex-end;
+}
+.search {
+    font-size: larger;
+    justify-self: flex-end;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: rgb(58, 52, 52);
+}
