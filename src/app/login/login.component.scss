@@ -1,0 +1,40 @@
+.myForm {
+    padding: 1%;
+    background-color: #3B5998;
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    padding: 4px;
+    border-color: rgb(87, 132, 230);
+    border-style: solid;
+}
+.pass {
+    margin-left: 7px;
+    padding: 4px;
+    border-color: black;
+    border-style: solid;
+}
+.requests {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 35px;
+    color: white;
+}
+.email {
+    padding-left: 1%;
+    padding-right: 21%;
+}
+.btn {
+    height: 27px;
+    margin-left: 7px;
+    background-color: #3B5998;
+    border-radius: 0.2em;
+    border: hue($color: #000000);
+    color: white;
+}
+.forgot {
+    margin-left: 11%;
+    color: rgb(123, 128, 175);
+}
